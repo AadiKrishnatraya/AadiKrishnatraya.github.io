@@ -2,144 +2,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css">
   <title>Starbucks Coffee Company </title>
-  <style>
-  * {
-  margin: 0 ;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  background: white;
-}
-
-
-header {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.nav {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 18px 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav-left {
-  display: flex;
-  align-items: center;
-  gap: 28px;
-}
-
-.logo {
-  font-weight: 800;
-  letter-spacing: 2px;
-  
-  
-}
-
-.nav-left a {
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 600;
-  color: #000;
-}
-
-.nav-right {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-}
-
-.btn {
-  color: inherit;
-  font-size: 14px;
-  padding: 6px 16px;
-  border-radius: 20px;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.btn-out {
-  background: transparent;
-  border: 1px solid #ffffff;
-
-}
-
-.btn-filled {
-  background: #000;
-  color: #fff;
-  border: none;
-}
-
-
-.promo {
-  padding: 64px 0;
-}
-
-.promo-inner {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 40px;
-  display: flex;
-  align-items: center;
-}
-
-.promo.reverse .promo-inner {
-  flex-direction: row-reverse;
-}
-
-.promo-text {
-  width: 50%;
-  padding: 0 40px;
-}
-
-.promo-text h2 {
-  font-size: 32px;
-  margin-bottom: 20px;
-  line-height: 1.2;
-}
-
-.promo-text p {
-  font-size: 16px;
-  margin-bottom: 28px;
-  max-width: 420px;
-}
-
-.promo-text .btn-outline {
-  border-color: #fff;
-  color: #fff;
-}
-
-.promo img {
-  width: 50%;
-  object-fit: cover;
-}
-
-.greenBox { 
-  background: rgb(0, 100, 70);
-   color: #fff;
- }
-.redBox { background: rgb(160, 26, 50);
-   color: #fff;
-   margin-top: 35px;
-   }
-
-
-
-footer {
-  padding: 40px;
-  border-top: 1px solid #e5e5e5;
-  font-size: 14px;
-  color: #666;
-}
-
-  </style>
-</head>
+  </head>
 <body>
   <header>
   <div class="nav">
@@ -158,18 +23,18 @@ footer {
 
 
 <div class="promo greenBox reverse">
-  <div class="promo-inner">
+  <div class="promoinner">
     <div class="promo-text">
       <h2>Starbucks for Life<br>Merrython is here</h2>
       <p>Chase the cheer in the new Starbucks for Life Merrython game. Simply join the fun for a chance to win weekly grand prizes like Starbucks for Life*. First stop: Seattle.</p>
       <button class="btn btn-out">Play now</button>
     </div>
-    <img style="height: auto;" src="./man_image.webp" alt="Illustration" />
+    <img src="./man_image.webp" alt="Illustration" />
   </div>
 </div>
 
 <div class="promo redBox ">
-  <div class="promo-inner">
+  <div class="promoinner">
     <div class="promo-text">
       <h2>Bring a little joy along</h2>
       <p>Travel days are a treat with your holiday favorites in hand.</p>
@@ -180,7 +45,7 @@ footer {
 </div>
 
 <div class="promo redBox reverse">
-  <div class="promo-inner">
+  <div class="promoinner">
     <div class="promo-text">
       <h2>Our Roller Rabbit<br>collection is here</h2>
       <p>Grab the whimsical limited-edition drinkware and Starbucks Card.</p>
@@ -192,7 +57,7 @@ footer {
 </div>
 
 <div class="promo redBox">
-  <div class="promo-inner">
+  <div class="promoinner">
     <div class="promo-text">
       <h2>Holiday classics to gift and share</h2>
       <p>A new expression of our beloved Starbucks® Christmas Blonde Roast with notes of spiced orange and fig compote, and classic Starbucks® Christmas Blend with notes of spiced chocolate and spruce tips.</p>
@@ -204,7 +69,7 @@ footer {
 </div>
 
 <div class="promo redBox reverse" style="background-color: rgba(218, 208, 186, 0.77); color: rgb(54, 68, 30)">
-  <div class="promo-inner">
+  <div class="promoinner">
     <div class="promo-text">
       <h2>Our gift to you</h2>
       <p>Make the season merrier with a free handcrafted drink with purchase. It’s our treat during your first week as a Starbucks® Rewards member.**</p>
