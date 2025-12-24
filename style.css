@@ -3,7 +3,7 @@
   margin: 0 ;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: SoDoSans, Helvetica , sans-serif;
 }
 
 body {
@@ -149,7 +149,7 @@ footer {
   display: none;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 768px) {
 
 
   .nav {
@@ -165,7 +165,7 @@ footer {
   .hamburger{
     display: flex;
     cursor: pointer
-    height: ;
+    
     
   }
 
